@@ -1,0 +1,23 @@
+  *Why Indexes start from Zero?
+-->This is because when we access an element in an array, the computer needs to calculate the memory address of that element.
+    If the index started at 1, the computer would need to calculate the memory address of the element at index 1, then add 1 to that address to get the address of the element we want.
+    However, if it starts at 0, the computer can just directly calculate the memory address of the element we want, without having to add 1. This saves time and makes the code more efficient.
+  *Static Programming:
+-->In static languages, the type can not be changed once a variable is created. If a variable type is defined, then only the value of the variable can be changed, but the type is static and cannot be changed.
+  This means that if we define an integer, we can only update its value and no other data type can be assigned to it.
+  *dynamic programming:
+-->In dynamic languages, the types and values are both dynamic, which means the types and values can both be changed. For example, a variable that was previously assigned an integer can be assigned a string. 
+  The type checking is done during run time.
+  *Dynamic Allocation in Python:
+-->Dynamic allocation in Python means that you can create and use variables and data structures without having to explicitly manage memory allocation and deallocation. 
+  Python takes care of memory management for you, making coding easier and more flexible.
+  *when lists are udes in python?
+-->Lists in Python are used extensively to store collections of items. Here's a breakdown of when and how lists are commonly used in Python:
+   1.Storing Multiple Values
+   2.Accessing Elements
+   3.Modifying Elements
+   4.Appending Elements
+   5.Extending Lists
+   6.Removing Elements
+   7.Slicing
+
